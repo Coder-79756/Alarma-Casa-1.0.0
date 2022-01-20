@@ -5,10 +5,10 @@
 
 LiquidCrystal_I2C lcd (0x27, 2, 1, 0, 4, 5, 6, 7); // DIR, E, RW, RS, D4, D5, D6, D7
 
-int ledPin = 13;  // LED on Pin 13 of Arduino
-int pirPin = 7; // Input for HC-S501
+int ledPin = 13;  // LED en el pin 13 de Arduino
+int pirPin = 7; // Entrada para HC-S501
 
-int pirValue; // Place to store read PIR Value
+int pirValue; // Lugar para almacenar el valor PIR leído
 
 void setup()
 {
